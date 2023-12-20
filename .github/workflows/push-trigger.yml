@@ -24,7 +24,7 @@ jobs:
   build-maven-audit-manager:
     uses: mosip/kattu/.github/workflows/maven-build.yml@master
     with:
-      SERVICE_LOCATION: ./kernel/kernel-auditmanager-service
+      SERVICE_LOCATION: ./kernel/
       BUILD_ARTIFACT: kernel-auditmanager-service
     secrets:
       OSSRH_USER: ${{ secrets.OSSRH_USER }}
